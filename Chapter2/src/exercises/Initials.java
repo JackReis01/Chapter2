@@ -12,7 +12,7 @@ public class Initials {
 		first = JOptionPane.showInputDialog(null, "What is your first initial? ", "Initials", JOptionPane.INFORMATION_MESSAGE);
 		second = JOptionPane.showInputDialog(null, "What is your second initial? ", "Initials", JOptionPane.INFORMATION_MESSAGE);
 		third = JOptionPane.showInputDialog(null, "What is your third initial? ", "Initials", JOptionPane.INFORMATION_MESSAGE);
-		JOptionPane.showMessageDialog(null, "Your initials are " + first + "." + second + "." );
+		JOptionPane.showMessageDialog(null, "Your initials are " + first + "." + second + "." + third + ".");
 	}
 
 }
